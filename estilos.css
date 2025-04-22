@@ -1,0 +1,123 @@
+/* Estilos generales para el body */
+body {
+  margin: 0; /* Elimina los márgenes predeterminados del navegador */
+  padding: 0; /* Elimina el relleno predeterminado del navegador */
+  font-family: "Poppins", sans-serif; /* Define la fuente principal del sitio */
+  font-weight: 200; /* Establece un peso ligero para el texto general */
+  font-style: normal; /* Asegura que el estilo de fuente sea normal (sin cursiva) */
+  background-color: rgb(242, 248, 252); /* Define un fondo claro para toda la página */
+  color: #333; /* Establece el color de texto predeterminado como gris oscuro */
+}
+
+/* Estilos para el encabezado (header) */
+header {
+  background-color: rgb(242, 248, 252); /* Mantiene el mismo fondo claro que el body */
+  padding: 20px 0; /* Añade espacio vertical dentro del encabezado */
+}
+
+/* Estilos para la barra de navegación (navbar) */
+.navbar {
+  max-width: 1200px; /* Limita el ancho máximo del contenido */
+  margin: 0 auto; /* Centra horizontalmente el navbar en la página */
+  text-align: center; /* Alinea el contenido del navbar al centro */
+  overflow: hidden; /* Evita que elementos flotantes afecten el diseño */
+}
+
+/* Estilos para la parte izquierda de la barra de navegación */
+.nav-start {
+  display: inline-block; /* Permite que el logo y el texto se muestren en línea */
+  vertical-align: middle; /* Alinea verticalmente el logo y el texto */
+}
+
+.nav-start img {
+  height: 30px; /* Define la altura del logo */
+  width: auto; /* Ajusta el ancho automáticamente para mantener la proporción */
+  vertical-align: middle; /* Alinea el logo con el texto */
+}
+
+.nav-start h3 {
+  display: inline-block; /* Coloca el título junto al logo */
+  margin-left: 10px; /* Añade espacio entre el logo y el texto */
+  font-size: 18px; /* Define el tamaño del texto del título */
+  font-weight: 600; /* Hace que el texto del título sea más grueso */
+}
+
+/* Estilos para la parte derecha de la barra de navegación */
+.nav-end {
+  display: inline-block; /* Coloca los enlaces y el botón en línea */
+  margin-left: 24rem; /* Separa los elementos de la parte izquierda */
+}
+
+.nav-end a {
+  text-decoration: none; /* Elimina el subrayado de los enlaces */
+  color: #c4c4c4; /* Define el color de los enlaces */
+  margin-left: 70px; /* Añade espacio entre los enlaces */
+  font-size: small; /* Reduce el tamaño del texto de los enlaces */
+  line-height: 35px; /* Ajusta la altura de línea para mejorar la legibilidad */
+}
+
+.nav-end button {
+  background-color: rgb(58, 191, 249); /* Define el color de fondo del botón */
+  color: white; /* Define el color del texto del botón */
+  padding: 10px 20px; /* Añade relleno interno al botón */
+  border-radius: 10px; /* Redondea las esquinas del botón */
+  border: none; /* Elimina el borde predeterminado del botón */
+  cursor: pointer; /* Cambia el cursor a una mano al pasar sobre el botón */
+  font-size: small; /* Reduce el tamaño del texto del botón */
+  margin-left: 70px; /* Añade espacio entre el último enlace y el botón */
+}
+
+/* Estilos para la sección principal */
+.section {
+  max-width: 1200px; /* Limita el ancho máximo del contenido */
+  margin: 0 auto; /* Centra horizontalmente la sección en la página */
+  padding: 50px 0; /* Añade espacio vertical dentro de la sección */
+  position: relative; /* Permite posicionar elementos relativos dentro de esta sección */
+  margin-top: 4em; /* Añade espacio superior para separar la sección del encabezado */
+}
+
+/* Estilos para el contenido de texto */
+.content {
+  width: 50%; /* Ocupa la mitad del ancho de la sección */
+  text-align: left; /* Alinea el texto a la izquierda */
+  float: left; /* Flota el contenido a la izquierda para permitir el diseño de dos columnas */
+  margin-top: 4rem; /* Añade espacio superior para alinear el contenido */
+}
+
+.content h1 {
+  font-size: 36px; /* Define el tamaño del título principal */
+  font-weight: 600; /* Hace que el título sea más grueso */
+  line-height: 1.2; /* Ajusta la altura de línea para mejorar la legibilidad */
+  color: #000; /* Define el color del texto del título */
+}
+
+.content p {
+  font-size: 16px; /* Define el tamaño del párrafo */
+  color: #a4a5a5; /* Define el color del texto del párrafo */
+  margin-top: 20px; /* Añade espacio superior para separar el párrafo del título */
+}
+
+/* Estilos para el botón "Get Started" */
+.button {
+  display: inline-block; /* Permite que el botón se comporte como un elemento en línea */
+  background-color: rgb(58, 191, 249);
+  color: white; /* Define el color del texto del botón */
+  border: none; /* Elimina el borde predeterminado del botón */
+  padding: 10px 20px; /* Añade relleno interno al botón */
+  border-radius: 10px; /* Redondea las esquinas del botón */
+  cursor: pointer; /* Cambia el cursor a una mano al pasar sobre el botón */
+  font-size: 14px; /* Define el tamaño del texto del botón */
+  margin-top: 20px; /* Añade espacio superior para separar el botón del párrafo */
+}
+
+/* Estilos para la imagen */
+.contain-image {
+  width: 50%; /* Ocupa la mitad del ancho de la sección */
+  float: right; /* Flota la imagen a la derecha para permitir el diseño de dos columnas */
+  text-align: right; /* Alinea el contenido a la derecha */
+}
+
+.contain-image img {
+  max-width: 100%; /* Ajusta el ancho de la imagen para que no exceda su contenedor */
+  border-radius: 20px; /* Redondea las esquinas de la imagen */
+}
